@@ -2,7 +2,7 @@
 
 A Java distributed systems project that simulates a real-world order workflow with asynchronous event processing, saga orchestration, and a query-side timeline projection.
 
-## Why this is a strong resume project
+
 
 - Built as a multi-service backend instead of a single CRUD app
 - Uses event-driven communication across services with Kafka-compatible messaging
