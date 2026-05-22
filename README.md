@@ -114,9 +114,3 @@ Query the timeline:
 curl http://localhost:8085/api/timelines/orders/<order-id>
 ```
 
-## Resume Bullets
-
-- Built a Java-based distributed order processing platform using Spring Boot, Kafka-style event streaming, and saga orchestration across 5 microservices
-- Designed asynchronous inventory, fraud, and order-status workflows to model eventual consistency, parallel downstream decisions, and fault-tolerant order handling
-- Implemented an event-projected customer timeline service to expose order lifecycle visibility through a read-optimized query API
-
