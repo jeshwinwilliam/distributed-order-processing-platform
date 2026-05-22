@@ -120,7 +120,3 @@ curl http://localhost:8085/api/timelines/orders/<order-id>
 - Designed asynchronous inventory, fraud, and order-status workflows to model eventual consistency, parallel downstream decisions, and fault-tolerant order handling
 - Implemented an event-projected customer timeline service to expose order lifecycle visibility through a read-optimized query API
 
-## Notes
-
-- Java is available in this environment, but Maven is not currently installed locally, so I prepared the repo structure and CI workflow without running a full local Maven build here.
-- The included GitHub Actions workflow is set up to build the project on GitHub with Maven and Java 21.
